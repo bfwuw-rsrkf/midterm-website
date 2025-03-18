@@ -2,6 +2,27 @@
     margin: 0;
     padding: 0;
 }
+
+/* section header styles */
+.header {
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+/* section welcome styles */
 .welcome {
     width: 100%;
     min-height: 100vh;
